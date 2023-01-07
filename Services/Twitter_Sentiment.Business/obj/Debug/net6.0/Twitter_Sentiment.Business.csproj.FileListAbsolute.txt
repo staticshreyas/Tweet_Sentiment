@@ -1,0 +1,15 @@
+/Users/shreyasmore/Desktop/Twitter_Sentiment/Services/Twitter_Sentiment.Business/bin/Debug/net6.0/Twitter_Sentiment.Business.deps.json
+/Users/shreyasmore/Desktop/Twitter_Sentiment/Services/Twitter_Sentiment.Business/bin/Debug/net6.0/Twitter_Sentiment.Business.dll
+/Users/shreyasmore/Desktop/Twitter_Sentiment/Services/Twitter_Sentiment.Business/bin/Debug/net6.0/Twitter_Sentiment.Business.pdb
+/Users/shreyasmore/Desktop/Twitter_Sentiment/Services/Twitter_Sentiment.Business/bin/Debug/net6.0/Twitter_Sentiment.Core.dll
+/Users/shreyasmore/Desktop/Twitter_Sentiment/Services/Twitter_Sentiment.Business/bin/Debug/net6.0/Twitter_Sentiment.Core.pdb
+/Users/shreyasmore/Desktop/Twitter_Sentiment/Services/Twitter_Sentiment.Business/obj/Debug/net6.0/Twitter_Sentiment.Business.csproj.AssemblyReference.cache
+/Users/shreyasmore/Desktop/Twitter_Sentiment/Services/Twitter_Sentiment.Business/obj/Debug/net6.0/Twitter_Sentiment.Business.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shreyasmore/Desktop/Twitter_Sentiment/Services/Twitter_Sentiment.Business/obj/Debug/net6.0/Twitter_Sentiment.Business.AssemblyInfoInputs.cache
+/Users/shreyasmore/Desktop/Twitter_Sentiment/Services/Twitter_Sentiment.Business/obj/Debug/net6.0/Twitter_Sentiment.Business.AssemblyInfo.cs
+/Users/shreyasmore/Desktop/Twitter_Sentiment/Services/Twitter_Sentiment.Business/obj/Debug/net6.0/Twitter_Sentiment.Business.csproj.CoreCompileInputs.cache
+/Users/shreyasmore/Desktop/Twitter_Sentiment/Services/Twitter_Sentiment.Business/obj/Debug/net6.0/Twitter_Sentiment.Business.csproj.CopyComplete
+/Users/shreyasmore/Desktop/Twitter_Sentiment/Services/Twitter_Sentiment.Business/obj/Debug/net6.0/Twitter_Sentiment.Business.dll
+/Users/shreyasmore/Desktop/Twitter_Sentiment/Services/Twitter_Sentiment.Business/obj/Debug/net6.0/refint/Twitter_Sentiment.Business.dll
+/Users/shreyasmore/Desktop/Twitter_Sentiment/Services/Twitter_Sentiment.Business/obj/Debug/net6.0/Twitter_Sentiment.Business.pdb
+/Users/shreyasmore/Desktop/Twitter_Sentiment/Services/Twitter_Sentiment.Business/obj/Debug/net6.0/ref/Twitter_Sentiment.Business.dll

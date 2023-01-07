@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "AnpEi6CpFpodm9Nk4ueRvaHTCK6YVPVX9mxiOEKunVxDeAJXMkGWDvmXJK2v0usoKLJGl5gmwwKZisFFtBjjoA==",
+  "success": true,
+  "projectFilePath": "/Users/shreyasmore/Desktop/Twitter_Sentiment/Services/Twitter_Sentiment.Api/Twitter_Sentiment.Api.csproj",
+  "expectedPackageFiles": [
+    "/Users/shreyasmore/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/shreyasmore/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/shreyasmore/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/Users/shreyasmore/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/Users/shreyasmore/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/Users/shreyasmore/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

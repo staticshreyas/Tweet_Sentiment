@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "D2YfnYsrsenRvzugXnNDJ8JzhjwFxlJOf/hjNhMqMhU=",
+  "Source": "Twitter_Sentiment.Api",
+  "BasePath": "_content/Twitter_Sentiment.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

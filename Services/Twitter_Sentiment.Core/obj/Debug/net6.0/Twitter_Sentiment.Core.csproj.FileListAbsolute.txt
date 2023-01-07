@@ -1,0 +1,12 @@
+/Users/shreyasmore/Desktop/Twitter_Sentiment/Services/Twitter_Sentiment.Core/bin/Debug/net6.0/Twitter_Sentiment.Core.deps.json
+/Users/shreyasmore/Desktop/Twitter_Sentiment/Services/Twitter_Sentiment.Core/bin/Debug/net6.0/Twitter_Sentiment.Core.dll
+/Users/shreyasmore/Desktop/Twitter_Sentiment/Services/Twitter_Sentiment.Core/bin/Debug/net6.0/Twitter_Sentiment.Core.pdb
+/Users/shreyasmore/Desktop/Twitter_Sentiment/Services/Twitter_Sentiment.Core/obj/Debug/net6.0/Twitter_Sentiment.Core.csproj.AssemblyReference.cache
+/Users/shreyasmore/Desktop/Twitter_Sentiment/Services/Twitter_Sentiment.Core/obj/Debug/net6.0/Twitter_Sentiment.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shreyasmore/Desktop/Twitter_Sentiment/Services/Twitter_Sentiment.Core/obj/Debug/net6.0/Twitter_Sentiment.Core.AssemblyInfoInputs.cache
+/Users/shreyasmore/Desktop/Twitter_Sentiment/Services/Twitter_Sentiment.Core/obj/Debug/net6.0/Twitter_Sentiment.Core.AssemblyInfo.cs
+/Users/shreyasmore/Desktop/Twitter_Sentiment/Services/Twitter_Sentiment.Core/obj/Debug/net6.0/Twitter_Sentiment.Core.csproj.CoreCompileInputs.cache
+/Users/shreyasmore/Desktop/Twitter_Sentiment/Services/Twitter_Sentiment.Core/obj/Debug/net6.0/Twitter_Sentiment.Core.dll
+/Users/shreyasmore/Desktop/Twitter_Sentiment/Services/Twitter_Sentiment.Core/obj/Debug/net6.0/refint/Twitter_Sentiment.Core.dll
+/Users/shreyasmore/Desktop/Twitter_Sentiment/Services/Twitter_Sentiment.Core/obj/Debug/net6.0/Twitter_Sentiment.Core.pdb
+/Users/shreyasmore/Desktop/Twitter_Sentiment/Services/Twitter_Sentiment.Core/obj/Debug/net6.0/ref/Twitter_Sentiment.Core.dll

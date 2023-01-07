@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twitter_Sentiment.Api", "Twitter_Sentiment.Api\Twitter_Sentiment.Api.csproj", "{1A0A3F20-BACD-4666-A2FF-03302E8DE60F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twitter_Sentiment.Core", "Twitter_Sentiment.Core\Twitter_Sentiment.Core.csproj", "{F7071E39-F525-4A5B-84D8-202A197A42D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twitter_Sentiment.Business", "Twitter_Sentiment.Business\Twitter_Sentiment.Business.csproj", "{776F8E3B-80BB-407B-AA01-DF150E4350A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A0A3F20-BACD-4666-A2FF-03302E8DE60F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A0A3F20-BACD-4666-A2FF-03302E8DE60F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A0A3F20-BACD-4666-A2FF-03302E8DE60F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A0A3F20-BACD-4666-A2FF-03302E8DE60F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7071E39-F525-4A5B-84D8-202A197A42D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7071E39-F525-4A5B-84D8-202A197A42D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7071E39-F525-4A5B-84D8-202A197A42D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7071E39-F525-4A5B-84D8-202A197A42D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{776F8E3B-80BB-407B-AA01-DF150E4350A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{776F8E3B-80BB-407B-AA01-DF150E4350A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{776F8E3B-80BB-407B-AA01-DF150E4350A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{776F8E3B-80BB-407B-AA01-DF150E4350A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
