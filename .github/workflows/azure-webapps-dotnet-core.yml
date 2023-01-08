@@ -2,8 +2,8 @@ name: Build and deploy Tweet Mood to an Azure Web App
 
 env:
   AZURE_WEBAPP_NAME: tweetmood    # set this to the name of your Azure Web App
-  AZURE_WEBAPP_PACKAGE_PATH: './Services'      # set this to the path to your web app project, defaults to the repository root
-  DOTNET_VERSION: '6'                 # set this to the .NET Core version to use
+  AZURE_WEBAPP_PACKAGE_PATH: '.'      # set this to the path to your web app project, defaults to the repository root
+  DOTNET_VERSION: '6.0.x'
 
 on:
   push:
@@ -35,9 +35,11 @@ jobs:
 
       - name: Build with dotnet
         run: dotnet build --configuration Release
+        working-directory: './Services'
 
       - name: dotnet publish
         run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
+        working-directory: './Services'
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
