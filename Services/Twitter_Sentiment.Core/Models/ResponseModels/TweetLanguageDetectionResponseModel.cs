@@ -12,10 +12,10 @@ namespace Twitter_Sentiment.Core.Models.ResponseModels
         /// </summary>
         /// <param name="tweet_Text"></param>
         /// <param name="result"></param>
-        public TweetLanguageDetectionResponseModel(string? tweet_Text, bool result)
+        public TweetLanguageDetectionResponseModel(string? tweet_Text, bool isEnglish)
         {
             Tweet_text = tweet_Text;
-            Is_english = result;
+            Is_english = isEnglish;
         }
 
         /// <summary>

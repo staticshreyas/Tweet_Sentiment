@@ -51,7 +51,7 @@ namespace Twitter_Sentiment.Api.Controllers
         /// <param name="requestModel"></param>
         /// <returns></returns>
         [HttpPost("language-detection")]
-        public ActionResult<TweetLanguageDetectionResponseModel> PostLanguageDetection([FromBody] TweetLanguageDetectionRequestModel[] requestModel)
+        public async Task<ActionResult<TweetLanguageDetectionResponseModel>> PostLanguageDetection([FromBody] TweetLanguageDetectionRequestModel[] requestModel)
         {
             this._logger.LogInformation("API START", DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss.ff"));
             if (requestModel == null)
@@ -59,7 +59,31 @@ namespace Twitter_Sentiment.Api.Controllers
                 return BadRequest();
             }
 
-            var response = this._tweetLanguageDetection.DetectTweetLanguage(requestModel, this._azureCredentials.Value.AZURE_LANGUAGE_DETECTION_KEY, this._azureCredentials.Value.AZURE_LANGUAGE_DETECTION_ENDPOINT);
+            var response = await this._tweetLanguageDetection.DetectTweetLanguage(requestModel, this._azureCredentials.Value.AZURE_LANGUAGE_DETECTION_KEY, this._azureCredentials.Value.AZURE_LANGUAGE_DETECTION_ENDPOINT);
+
+            if (response == null)
+            {
+                return NotFound();
+            }
+            this._logger.LogInformation("API SUCCESS END", DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss.ff"));
+            return Ok(response);
+        }
+
+        /// <summary>
+        /// Controller for Language Detection API.
+        /// </summary>
+        /// <param name="requestModel"></param>
+        /// <returns></returns>
+        [HttpPost("sentiment-score")]
+        public async Task<ActionResult<TweetSentimentDetectionResponseModel>> PostTweetSentiment([FromBody] IEnumerable<TweetSentimentDetectionRequestModel> requestModel)
+        {
+            this._logger.LogInformation("API START", DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss.ff"));
+            if (requestModel == null)
+            {
+                return BadRequest();
+            }
+
+            var response = await this._tweetLanguageDetection.DetectTweetSentiment(requestModel, this._azureCredentials.Value.AZURE_LANGUAGE_DETECTION_KEY, this._azureCredentials.Value.AZURE_LANGUAGE_DETECTION_ENDPOINT);
 
             if (response == null)
             {
