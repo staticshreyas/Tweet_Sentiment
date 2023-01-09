@@ -29,3 +29,7 @@
 /Users/shreyasmore/Desktop/Twitter_Sentiment/Services/Twitter_Sentiment.Api/obj/Debug/net6.0/Twitter_Sentiment.Api.pdb
 /Users/shreyasmore/Desktop/Twitter_Sentiment/Services/Twitter_Sentiment.Api/obj/Debug/net6.0/Twitter_Sentiment.Api.genruntimeconfig.cache
 /Users/shreyasmore/Desktop/Twitter_Sentiment/Services/Twitter_Sentiment.Api/obj/Debug/net6.0/ref/Twitter_Sentiment.Api.dll
+/Users/shreyasmore/Desktop/Twitter_Sentiment/Services/Twitter_Sentiment.Api/bin/Debug/net6.0/Azure.AI.TextAnalytics.dll
+/Users/shreyasmore/Desktop/Twitter_Sentiment/Services/Twitter_Sentiment.Api/bin/Debug/net6.0/Azure.Core.dll
+/Users/shreyasmore/Desktop/Twitter_Sentiment/Services/Twitter_Sentiment.Api/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/shreyasmore/Desktop/Twitter_Sentiment/Services/Twitter_Sentiment.Api/bin/Debug/net6.0/System.Memory.Data.dll

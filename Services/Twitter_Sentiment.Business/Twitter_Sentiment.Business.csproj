@@ -4,6 +4,10 @@
     <ProjectReference Include="..\Twitter_Sentiment.Core\Twitter_Sentiment.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Azure.AI.TextAnalytics" Version="5.2.0" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
