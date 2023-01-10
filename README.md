@@ -22,6 +22,7 @@ Tweet Mood is a Chrome Extension designed to analyse the sentiment of the tweets
         <li><a href="#technologies">Tech</a></li>
        <li><a href="#cloud-services">Cloud Services</a></li>
        <li><a href="#features">Features</a></li>
+       <li><a href="#features">Demo</a></li>
       </ul>
     </li>
     <li><a href="#contact">Contact</a></li>
@@ -52,7 +53,14 @@ Tweet Mood is a Chrome Extension designed to analyse the sentiment of the tweets
 #### APIs
 
 - [x] Language Detection: POST https://tweetmood.azurewebsites.net/api/language-detection
+  ![api](./MediaContent/Language_Detection_Api.png)
 - [x] Sentiment Detection: POST https://tweetmood.azurewebsites.net/api/sentiment-score
+  ![api](./MediaContent/Sentiment_Score_Api.png)
+
+<!-- DEMO -->
+#### Demo
+ ![api](./MediaContent/Demo.gif)
+
 
 <!-- CONTACT -->
 ## Contact
