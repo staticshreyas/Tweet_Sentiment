@@ -67,7 +67,8 @@
 
             foreach (TweetSentimentDetectionRequestModel tweet in requestModel)
             {
-                DocumentSentiment result = await SentimentDetection(client, tweet.Tweet_text);
+                DocumentSentiment? result = await SentimentDetection(client, tweet.Tweet_text);
+                if (result == null) continue;
 
                 SentimentScoreModel sentimentScores = new()
                 {
@@ -92,6 +93,9 @@
         /// <returns></returns>
         private async static Task<bool> LanguageDetection(TextAnalyticsClient client, string? tweet)
         {
+            if (tweet == string.Empty) return false;
+
+
             DetectedLanguage detectedLanguage = await client.DetectLanguageAsync(tweet);
             return detectedLanguage.Name == "English";
         }
@@ -102,8 +106,10 @@
         /// <param name="client"></param>
         /// <param name="tweet"></param>
         /// <returns></returns>
-        private async static Task<DocumentSentiment> SentimentDetection(TextAnalyticsClient client, string? tweet)
+        private async static Task<DocumentSentiment?> SentimentDetection(TextAnalyticsClient client, string? tweet)
         {
+            if (tweet == string.Empty) return null;
+
             DocumentSentiment sentiments = await client.AnalyzeSentimentAsync(tweet);
             return sentiments;
         }
