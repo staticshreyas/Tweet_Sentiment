@@ -51,7 +51,7 @@ namespace Twitter_Sentiment.Api.Controllers
         /// <param name="requestModel"></param>
         /// <returns></returns>
         [HttpPost("language-detection")]
-        public async Task<ActionResult<TweetLanguageDetectionResponseModel>> PostLanguageDetection([FromBody] TweetLanguageDetectionRequestModel[] requestModel)
+        public async Task<ActionResult<TweetLanguageDetectionResponseModel>> PostLanguageDetection([FromBody] IEnumerable<TweetLanguageDetectionRequestModel> requestModel)
         {
             this._logger.LogInformation("API START", DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss.ff"));
             if (requestModel == null)

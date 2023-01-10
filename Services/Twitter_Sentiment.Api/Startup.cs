@@ -21,6 +21,15 @@ namespace Twitter_Sentiment.Api
             services.Configure<AzureCredentials>(Configuration.GetSection("AzureCredentials"));
 
             services.AddScoped<ITweetLanguageDetection, TweetLanguageDetection>();
+
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(
+                policy =>
+                {
+                    policy.WithOrigins("https://twitter.com");
+                });
+            });
         }
 
         public void Configure(WebApplication app, IWebHostEnvironment env)
@@ -37,6 +46,12 @@ namespace Twitter_Sentiment.Api
             }
 
             app.UseHttpsRedirection();
+            app.UseCors(builder =>
+            {
+                builder.AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader();
+            });
             app.UseAuthorization();
             app.MapControllers();
             app.Run();
