@@ -30,7 +30,7 @@ function myMain() {
 
             if (tweets.length >= 1) {
                 $.ajax({
-                    url: "https://localhost:7159/api/language-detection",
+                    url: "https://tweetmood.azurewebsites.net/api/language-detection",
                     type: "POST",
                     contentType: "application/json; charset=utf-8",
                     dataType: "json",
@@ -59,7 +59,7 @@ function myMain() {
                     })
 
                     $.ajax({
-                        url: "https://localhost:7159/api/sentiment-score",
+                        url: "https://tweetmood.azurewebsites.net/api/sentiment-score",
                         type: "POST",
                         contentType: "application/json; charset=utf-8",
                         dataType: "json",
