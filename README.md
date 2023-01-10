@@ -59,7 +59,7 @@ Tweet Mood is a Chrome Extension designed to analyse the sentiment of the tweets
 
 <!-- DEMO -->
 #### Demo
-<a href="https://drive.google.com/file/d/1bmOY1GXXEM3ovnpn6Wa4Ne1UZNpXdUNs/view?usp=sharing" title="Link Title"><img src="https://drive.google.com/file/d/1bmOY1GXXEM3ovnpn6Wa4Ne1UZNpXdUNs/view?usp=sharing" alt="Demo Video" /></a>
+ ![api](./MediaContent/Demo.gif)
 
 <!-- CONTACT -->
 ## Contact
