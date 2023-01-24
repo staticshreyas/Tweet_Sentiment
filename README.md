@@ -1,6 +1,6 @@
 <div align="center">
  
-<h1 align="center">Tweet Mood</h1>
+<h1 align="center">Tweet Mood (Hosting Deprecated)</h1>
 
 [![](https://img.shields.io/badge/Backend_Made_with-.NET-red?style=for-the-badge&logo=.net)](#)
 [![](https://img.shields.io/badge/Chrome_Extension_Made_with-Javascript-yellow?style=for-the-badge&logo=javascript)](#)
